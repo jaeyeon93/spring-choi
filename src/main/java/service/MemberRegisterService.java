@@ -1,6 +1,9 @@
 package service;
 
+import dao.MemberDao;
 import domain.Member;
+import domain.RegisterRequest;
+import validation.AlreadyExistingMemberException;
 
 import java.nio.file.FileAlreadyExistsException;
 import java.util.Date;
@@ -15,7 +18,7 @@ public class MemberRegisterService {
     public void regist(RegisterRequest req) {
         Member member = memberDao.selectByEmail(req.getEmail());
         if (member != null)
-            throw new FileAlreadyExistsException("dup email " + req.getEmail());
+            throw new AlreadyExistingMemberException("dup email " + req.getEmail());
         Member newMember = new Member(
                 req.getEmail(), req.getPassword(), req.getName(), new Date());
         memberDao.insert(newMember);

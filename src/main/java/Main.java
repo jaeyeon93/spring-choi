@@ -1,11 +1,15 @@
+import assembler.Assembler;
+import dao.MemberDao;
+import domain.Member;
 import org.springframework.context.support.GenericXmlApplicationContext;
+import service.ChangePasswordService;
+import service.MemberRegisterService;
 
 public class Main {
     public static void main(String[] args) {
-        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath:applicationContext.xml");
-        Greeter g1 = ctx.getBean("greeter", Greeter.class);
-        Greeter g2 = ctx.getBean("greeter", Greeter.class);
-        System.out.println("(g1 == g2) = " + (g1 == g2));
-        ctx.close();
+        Assembler assembler = new Assembler();
+        ChangePasswordService changePasswordService = assembler.getPwdSvc();
+        MemberRegisterService memberRegisterService = assembler.getRegSvc();
+        // regSvc pwdSvc를 사용하는 코드
     }
 }
