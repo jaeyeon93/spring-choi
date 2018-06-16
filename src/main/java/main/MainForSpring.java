@@ -1,7 +1,9 @@
 package main;
 
 import assembler.Assembler;
+import dao.MemberInfoPrinter;
 import dao.MemberListPrinter;
+import dao.VersionPrinter;
 import domain.RegisterRequest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
@@ -38,6 +40,12 @@ public class MainForSpring {
                 continue;
             } else if (command.startsWith("list")) {
                 processListCommand();
+                continue;
+            } else if (command.startsWith("info ")) {
+                processInfoCommand(command.split(" "));
+                continue;
+            } else if (command.startsWith("version")) {
+                processVersionCommand();
                 continue;
             }
             printHelp();
@@ -89,6 +97,20 @@ public class MainForSpring {
     private static void processListCommand() {
         MemberListPrinter listPrinter = ctx.getBean("listPrinter", MemberListPrinter.class);
         listPrinter.printAll();
+    }
+
+    private static void processInfoCommand(String [] args) {
+        if (args.length != 2) {
+            printHelp();
+            return;
+        }
+        MemberInfoPrinter infoPrinter = ctx.getBean("infoPrinter", MemberInfoPrinter.class);
+        infoPrinter.printMemberInfo(args[1]);
+    }
+
+    private static void processVersionCommand() {
+        VersionPrinter versionPrinter = ctx.getBean("versionPrinter", VersionPrinter.class);
+        versionPrinter.print();
     }
 
     private static void printHelp() {
