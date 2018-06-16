@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <!-- <bean/> 정의는 여기에 작성한다 -->
+    <bean id="memberDao" class="dao.MemberDao"></bean>
+
+    <bean id="memberRegSvc" class="service.MemberRegisterService">
+        <constructor-arg ref="memberDao" />
+    </bean>
+
+    <bean id="changePwdSvc" class="service.ChangePasswordService">
+        <constructor-arg ref="memberDao" />
+    </bean>
+
+    <bean id="memberPrinter" class="dao.MemberPrinter"></bean>
+
+    <bean id="listPrinter" class="dao.MemberListPrinter">
+        <constructor-arg ref="memberDao" />
+        <constructor-arg ref="memberPrinter" />
+    </bean>
+
+</beans>

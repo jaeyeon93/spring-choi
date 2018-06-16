@@ -2,6 +2,7 @@ package dao;
 
 import domain.Member;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +16,10 @@ public class MemberDao {
     public void insert(Member member) {
         member.setId(++nextId);
         map.put(member.getEmail(), member);
+    }
+
+    public Collection<Member> selectAll() {
+        return map.values();
     }
 
     public void update(Member member) {

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78de8000-dede-4e22-8c7d-cb30c96bec6d" name="Default" comment="" />
+    <list default="true" id="78de8000-dede-4e22-8c7d-cb30c96bec6d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/MemberDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/MemberDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/MainForAssembler.java" afterPath="$PROJECT_DIR$/src/main/java/main/MainForSpring.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/appCtx.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/MainForAssembler.class" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +32,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainForAssembler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main/MainForAssembler.java">
+      <file leaf-file-name="MainForSpring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/MainForSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="439">
+              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appCtx.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/appCtx.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="73" lean-forward="false" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberPrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberListPrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberListPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,46 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AlreadyExistingMemberException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/validation/AlreadyExistingMemberException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,45 +121,6 @@
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/RegisterRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdPasswordNotMatchingException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/validation/IdPasswordNotMatchingException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -198,19 +176,24 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Greeter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/validation/IdPasswordNotMatchingException.java" />
         <option value="$PROJECT_DIR$/src/main/java/validation/AlreadyExistingMemberException.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/RegisterRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/MemberDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/MemberDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/MemberRegisterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/validation/MemberNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/ChangePasswordService.java" />
         <option value="$PROJECT_DIR$/src/main/java/assembler/Assembler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/main/MainForAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/MemberPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/MemberListPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/MemberListPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/appCtx.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/main/MainForSpring.java" />
       </list>
     </option>
   </component>
@@ -646,6 +629,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-choi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-choi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -655,6 +646,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-choi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-choi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -691,7 +689,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainForAssembler">
+  <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -763,14 +761,14 @@
       <module name="spring4" />
       <envs />
     </configuration>
-    <configuration name="MainForAssembler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainForSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.MainForAssembler" />
+      <option name="MAIN_CLASS_NAME" value="main.MainForSpring" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -854,11 +852,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainForAssembler" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainForSpring" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainForAssembler" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainForSpring" />
         <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -877,12 +875,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529044708853</updated>
       <workItem from="1529044712797" duration="1635000" />
-      <workItem from="1529074202440" duration="3156000" />
+      <workItem from="1529074202440" duration="4816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4791000" />
+    <option name="totallyTimeSpent" value="6451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1330" extended-state="0" />
@@ -945,7 +943,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appCtx.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
@@ -999,14 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/MemberDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1023,20 +1013,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,10 +1131,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainForAssembler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appCtx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="73" lean-forward="false" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MemberListPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainForSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
