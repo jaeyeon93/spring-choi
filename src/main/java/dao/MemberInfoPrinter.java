@@ -11,12 +11,11 @@ public class MemberInfoPrinter {
     private MemberDao memberDao;
     private MemberPrinter printer;
 
-    public MemberInfoPrinter(MemberDao memberDao, MemberPrinter printer) {
-        this.memberDao = memberDao;
-        this.printer = printer;
-    }
+    public MemberInfoPrinter() {}
 
+    @Autowired
     public void setMemberDao(MemberDao memberDao) {
+        System.out.println("MemberInfoPrinter 주입 : " + memberDao);
         this.memberDao = memberDao;
     }
 

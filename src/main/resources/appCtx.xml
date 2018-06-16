@@ -6,6 +6,8 @@
     <!-- <bean/> 정의는 여기에 작성한다 -->
     <context:annotation-config />
 
+    <bean class="config.JavaConfig" />
+
     <bean id="memberDao" class="dao.MemberDao"></bean>
 
     <bean id="memberRegSvc" class="service.MemberRegisterService"></bean>
