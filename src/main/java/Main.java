@@ -7,9 +7,11 @@ import service.MemberRegisterService;
 
 public class Main {
     public static void main(String[] args) {
-        Assembler assembler = new Assembler();
-        ChangePasswordService changePasswordService = assembler.getPwdSvc();
-        MemberRegisterService memberRegisterService = assembler.getRegSvc();
-        // regSvc pwdSvc를 사용하는 코드
+        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath:appCtx.xml");
+        Client client = ctx.getBean("client", Client.class);
+        Client client2 = ctx.getBean("client", Client.class);
+        System.out.println("client == client2 : " + client.equals(client2));
+        client.send();
+        ctx.close();
     }
 }

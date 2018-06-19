@@ -8,9 +8,11 @@
 
     <bean class="config.JavaConfig" />
 
-    <bean id="memberDao" class="dao.MemberDao"></bean>
+    <bean id="client" class="Client">
+        <property name="host" value="서버"></property>
+    </bean>
 
-    <bean id="memberRegSvc" class="service.MemberRegisterService"></bean>
+    <bean id="memberDao" class="dao.MemberDao"></bean>
 
     <bean id="changePwdSvc" class="service.ChangePasswordService">
         <constructor-arg ref="memberDao" />
