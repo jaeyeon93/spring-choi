@@ -8,6 +8,11 @@
 
     <bean class="config.JavaConfig" />
 
+    <bean id="greeter" class="domain.Greeter">
+        <property name="name" value="김재연"></property>
+        <property name="password" value="12345"></property>
+    </bean>
+
     <bean id="client" class="Client">
         <property name="host" value="서버"></property>
     </bean>
