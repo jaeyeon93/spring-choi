@@ -1,0 +1,28 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "me.jimmy.JimmyProperties",
+      "name": "jimmy",
+      "type": "me.jimmy.JimmyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "me.jimmy.JimmyProperties",
+      "defaultValue": 0,
+      "name": "jimmy.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "me.jimmy.JimmyProperties",
+      "name": "jimmy.fulll-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "me.jimmy.JimmyProperties",
+      "name": "jimmy.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
