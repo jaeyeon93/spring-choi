@@ -1,0 +1,48 @@
+2018-09-13 00:47:04.779  INFO 22575 --- [main] m.j.SpringBootStartingApplicationTest    : Starting SpringBootStartingApplicationTest on jaeyeonui-iMac.local with PID 22575 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-13 00:47:04.781  INFO 22575 --- [main] m.j.SpringBootStartingApplicationTest    : The following profiles are active: test
+2018-09-13 00:47:04.847  INFO 22575 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6fa51cd4: startup date [Thu Sep 13 00:47:04 KST 2018]; root of context hierarchy
+2018-09-13 00:47:05.984  INFO 22575 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-13 00:47:06.177  INFO 22575 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6fa51cd4: startup date [Thu Sep 13 00:47:04 KST 2018]; root of context hierarchy
+2018-09-13 00:47:06.278  INFO 22575 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-13 00:47:06.279  INFO 22575 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-13 00:47:06.308  INFO 22575 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-13 00:47:06.309  INFO 22575 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-13 00:47:06.450  INFO 22575 --- [main] m.j.SpringBootStartingApplicationTest    : Started SpringBootStartingApplicationTest in 2.121 seconds (JVM running for 3.237)
+2018-09-13 00:47:06.613  INFO 22575 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6fa51cd4: startup date [Thu Sep 13 00:47:04 KST 2018]; root of context hierarchy
+2018-09-13 00:50:33.006  INFO 22596 --- [main] me.jimmy.SpringbootStartingApplication   : Starting SpringbootStartingApplication on jaeyeonui-iMac.local with PID 22596 (/Users/jaeyeonkim/Desktop/project/spring-choi/target/classes started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-13 00:50:33.008  INFO 22596 --- [main] me.jimmy.SpringbootStartingApplication   : The following profiles are active: test
+2018-09-13 00:50:33.095  INFO 22596 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@d4342c2: startup date [Thu Sep 13 00:50:33 KST 2018]; root of context hierarchy
+2018-09-13 00:50:34.092  INFO 22596 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-13 00:50:34.106  INFO 22596 --- [main] me.jimmy.SpringbootStartingApplication   : Started SpringbootStartingApplication in 1.809 seconds (JVM running for 2.334)
+2018-09-13 00:50:34.108  INFO 22596 --- [main] me.jimmy.SampleListener                  : ==============
+2018-09-13 00:50:34.108  INFO 22596 --- [main] me.jimmy.SampleListener                  : test config bean
+2018-09-13 00:50:34.118  INFO 22596 --- [main] me.jimmy.SampleListener                  : jimmy test properties
+2018-09-13 00:50:34.118  INFO 22596 --- [main] me.jimmy.SampleListener                  : null
+2018-09-13 00:50:34.119  INFO 22596 --- [main] me.jimmy.SampleListener                  : ==============
+2018-09-13 00:50:34.121  INFO 22596 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@d4342c2: startup date [Thu Sep 13 00:50:33 KST 2018]; root of context hierarchy
+2018-09-13 00:50:34.122  INFO 22596 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-13 00:52:23.231  INFO 22605 --- [main] me.jimmy.SpringbootStartingApplication   : Starting SpringbootStartingApplication on jaeyeonui-iMac.local with PID 22605 (/Users/jaeyeonkim/Desktop/project/spring-choi/target/classes started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-13 00:52:23.233  INFO 22605 --- [main] me.jimmy.SpringbootStartingApplication   : The following profiles are active: test
+2018-09-13 00:52:23.375  INFO 22605 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Thu Sep 13 00:52:23 KST 2018]; root of context hierarchy
+2018-09-13 00:52:24.412  INFO 22605 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-13 00:52:24.423  INFO 22605 --- [main] me.jimmy.SpringbootStartingApplication   : Started SpringbootStartingApplication in 1.703 seconds (JVM running for 2.242)
+2018-09-13 00:52:24.425 DEBUG 22605 --- [main] me.jimmy.SampleListener                  : ==============
+2018-09-13 00:52:24.425 DEBUG 22605 --- [main] me.jimmy.SampleListener                  : test config bean
+2018-09-13 00:52:24.437 DEBUG 22605 --- [main] me.jimmy.SampleListener                  : jimmy test properties
+2018-09-13 00:52:24.437 DEBUG 22605 --- [main] me.jimmy.SampleListener                  : null
+2018-09-13 00:52:24.437 DEBUG 22605 --- [main] me.jimmy.SampleListener                  : ==============
+2018-09-13 00:52:24.439  INFO 22605 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Thu Sep 13 00:52:23 KST 2018]; root of context hierarchy
+2018-09-13 00:52:24.440  INFO 22605 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-13 00:59:30.076  INFO 22661 --- [main] m.j.SpringbootStartingApplication        : Starting SpringbootStartingApplication on jaeyeonui-iMac.local with PID 22661 (/Users/jaeyeonkim/Desktop/project/spring-choi/target/classes started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-13 00:59:30.083 DEBUG 22661 --- [main] m.j.SpringbootStartingApplication        : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-13 00:59:30.083  INFO 22661 --- [main] m.j.SpringbootStartingApplication        : The following profiles are active: test
+2018-09-13 00:59:30.134  INFO 22661 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@568ff82: startup date [Thu Sep 13 00:59:30 KST 2018]; root of context hierarchy
+2018-09-13 00:59:31.083  INFO 22661 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-13 00:59:31.096  INFO 22661 --- [main] m.j.SpringbootStartingApplication        : Started SpringbootStartingApplication in 1.508 seconds (JVM running for 2.461)
+2018-09-13 00:59:31.097 DEBUG 22661 --- [main] m.j.SampleListener                       : ==============
+2018-09-13 00:59:31.097 DEBUG 22661 --- [main] m.j.SampleListener                       : test config bean
+2018-09-13 00:59:31.106 DEBUG 22661 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-13 00:59:31.107 DEBUG 22661 --- [main] m.j.SampleListener                       : null
+2018-09-13 00:59:31.107 DEBUG 22661 --- [main] m.j.SampleListener                       : ==============
+2018-09-13 00:59:31.108  INFO 22661 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@568ff82: startup date [Thu Sep 13 00:59:30 KST 2018]; root of context hierarchy
+2018-09-13 00:59:31.109  INFO 22661 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
