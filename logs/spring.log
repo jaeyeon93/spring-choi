@@ -46,3 +46,205 @@
 2018-09-13 00:59:31.107 DEBUG 22661 --- [main] m.j.SampleListener                       : ==============
 2018-09-13 00:59:31.108  INFO 22661 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@568ff82: startup date [Thu Sep 13 00:59:30 KST 2018]; root of context hierarchy
 2018-09-13 00:59:31.109  INFO 22661 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-09-21 11:08:46.807  INFO 35553 --- [main] m.j.SampleControllerTest                 : Starting SampleControllerTest on jaeyeonui-iMac.local with PID 35553 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:08:46.813 DEBUG 35553 --- [main] m.j.SampleControllerTest                 : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:08:46.813  INFO 35553 --- [main] m.j.SampleControllerTest                 : The following profiles are active: test
+2018-09-21 11:08:46.840  INFO 35553 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4278284b: startup date [Fri Sep 21 11:08:46 KST 2018]; root of context hierarchy
+2018-09-21 11:08:48.030  INFO 35553 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:08:48.157  INFO 35553 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4278284b: startup date [Fri Sep 21 11:08:46 KST 2018]; root of context hierarchy
+2018-09-21 11:08:48.246  INFO 35553 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:08:48.249  INFO 35553 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:08:48.249  INFO 35553 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:08:48.281  INFO 35553 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:08:48.281  INFO 35553 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:08:48.479  INFO 35553 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-09-21 11:08:48.480  INFO 35553 --- [main] o.s.t.w.s.TestDispatcherServlet          : FrameworkServlet '': initialization started
+2018-09-21 11:08:48.499  INFO 35553 --- [main] o.s.t.w.s.TestDispatcherServlet          : FrameworkServlet '': initialization completed in 19 ms
+2018-09-21 11:08:48.594  INFO 35553 --- [main] m.j.SampleControllerTest                 : Started SampleControllerTest in 2.243 seconds (JVM running for 3.895)
+2018-09-21 11:08:48.595 DEBUG 35553 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:08:48.595 DEBUG 35553 --- [main] m.j.SampleListener                       : test config bean
+2018-09-21 11:08:48.606 DEBUG 35553 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-21 11:08:48.606 DEBUG 35553 --- [main] m.j.SampleListener                       : null
+2018-09-21 11:08:48.607 DEBUG 35553 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:08:48.786  INFO 35553 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4278284b: startup date [Fri Sep 21 11:08:46 KST 2018]; root of context hierarchy
+2018-09-21 11:13:46.439  INFO 35572 --- [main] m.j.SampleControllerTest2                : Starting SampleControllerTest2 on jaeyeonui-iMac.local with PID 35572 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:13:46.445 DEBUG 35572 --- [main] m.j.SampleControllerTest2                : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:13:46.445  INFO 35572 --- [main] m.j.SampleControllerTest2                : The following profiles are active: test
+2018-09-21 11:13:46.485  INFO 35572 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@732d0d24: startup date [Fri Sep 21 11:13:46 KST 2018]; root of context hierarchy
+2018-09-21 11:13:47.557  INFO 35572 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2018-09-21 11:13:47.616  INFO 35572 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-21 11:13:47.616  INFO 35572 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-09-21 11:13:47.636  INFO 35572 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaeyeonkim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-09-21 11:13:47.735  INFO 35572 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-21 11:13:47.735  INFO 35572 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1252 ms
+2018-09-21 11:13:47.783  INFO 35572 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-21 11:13:47.846  INFO 35572 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-21 11:13:47.847  INFO 35572 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-21 11:13:47.847  INFO 35572 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-21 11:13:47.847  INFO 35572 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-21 11:13:48.055  INFO 35572 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:13:48.175  INFO 35572 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@732d0d24: startup date [Fri Sep 21 11:13:46 KST 2018]; root of context hierarchy
+2018-09-21 11:13:48.239  INFO 35572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:13:48.241  INFO 35572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:13:48.242  INFO 35572 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:13:48.262  INFO 35572 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:13:48.262  INFO 35572 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:13:48.408  INFO 35572 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 51703 (http) with context path ''
+2018-09-21 11:13:48.412  INFO 35572 --- [main] m.j.SampleControllerTest2                : Started SampleControllerTest2 in 2.519 seconds (JVM running for 3.643)
+2018-09-21 11:13:48.413 DEBUG 35572 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:13:48.413 DEBUG 35572 --- [main] m.j.SampleListener                       : test config bean
+2018-09-21 11:13:48.422 DEBUG 35572 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-21 11:13:48.422 DEBUG 35572 --- [main] m.j.SampleListener                       : null
+2018-09-21 11:13:48.422 DEBUG 35572 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:13:48.605  INFO 35572 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-21 11:13:48.605  INFO 35572 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-21 11:13:48.617  INFO 35572 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-09-21 11:13:48.704  INFO 35572 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@732d0d24: startup date [Fri Sep 21 11:13:46 KST 2018]; root of context hierarchy
+2018-09-21 11:14:19.382  INFO 35577 --- [main] m.j.SampleControllerTest2                : Starting SampleControllerTest2 on jaeyeonui-iMac.local with PID 35577 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:14:19.393 DEBUG 35577 --- [main] m.j.SampleControllerTest2                : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:14:19.393  INFO 35577 --- [main] m.j.SampleControllerTest2                : The following profiles are active: test
+2018-09-21 11:14:19.443  INFO 35577 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10f7f7de: startup date [Fri Sep 21 11:14:19 KST 2018]; root of context hierarchy
+2018-09-21 11:14:20.324  INFO 35577 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2018-09-21 11:14:20.355  INFO 35577 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-21 11:14:20.356  INFO 35577 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-09-21 11:14:20.366  INFO 35577 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaeyeonkim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-09-21 11:14:20.432  INFO 35577 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-21 11:14:20.432  INFO 35577 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 991 ms
+2018-09-21 11:14:20.525  INFO 35577 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-21 11:14:20.528  INFO 35577 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-21 11:14:20.528  INFO 35577 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-21 11:14:20.529  INFO 35577 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-21 11:14:20.529  INFO 35577 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-21 11:14:20.738  INFO 35577 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:14:20.878  INFO 35577 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10f7f7de: startup date [Fri Sep 21 11:14:19 KST 2018]; root of context hierarchy
+2018-09-21 11:14:20.940  INFO 35577 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:14:20.943  INFO 35577 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:14:20.944  INFO 35577 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:14:20.969  INFO 35577 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:14:20.969  INFO 35577 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:14:21.107  INFO 35577 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 51711 (http) with context path ''
+2018-09-21 11:14:21.110  INFO 35577 --- [main] m.j.SampleControllerTest2                : Started SampleControllerTest2 in 2.139 seconds (JVM running for 3.288)
+2018-09-21 11:14:21.111 DEBUG 35577 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:14:21.112 DEBUG 35577 --- [main] m.j.SampleListener                       : test config bean
+2018-09-21 11:14:21.120 DEBUG 35577 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-21 11:14:21.120 DEBUG 35577 --- [main] m.j.SampleListener                       : null
+2018-09-21 11:14:21.120 DEBUG 35577 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:14:21.277  INFO 35577 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-21 11:14:21.278  INFO 35577 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-21 11:14:21.292  INFO 35577 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-09-21 11:14:21.335  INFO 35577 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10f7f7de: startup date [Fri Sep 21 11:14:19 KST 2018]; root of context hierarchy
+2018-09-21 11:19:09.421  INFO 35595 --- [main] m.j.SampleControllerTest2                : Starting SampleControllerTest2 on jaeyeonui-iMac.local with PID 35595 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:19:09.426 DEBUG 35595 --- [main] m.j.SampleControllerTest2                : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:19:09.426  INFO 35595 --- [main] m.j.SampleControllerTest2                : The following profiles are active: test
+2018-09-21 11:19:09.451  INFO 35595 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c214cc0: startup date [Fri Sep 21 11:19:09 KST 2018]; root of context hierarchy
+2018-09-21 11:19:10.755  INFO 35595 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2018-09-21 11:19:10.781  INFO 35595 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-21 11:19:10.781  INFO 35595 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-09-21 11:19:10.789  INFO 35595 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaeyeonkim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-09-21 11:19:10.855  INFO 35595 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-21 11:19:10.855  INFO 35595 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1406 ms
+2018-09-21 11:19:10.896  INFO 35595 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-21 11:19:10.899  INFO 35595 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-21 11:19:10.899  INFO 35595 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-21 11:19:10.899  INFO 35595 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-21 11:19:10.900  INFO 35595 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-21 11:19:11.138  INFO 35595 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:19:11.367  INFO 35595 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c214cc0: startup date [Fri Sep 21 11:19:09 KST 2018]; root of context hierarchy
+2018-09-21 11:19:11.432  INFO 35595 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:19:11.437  INFO 35595 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:19:11.438  INFO 35595 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:19:11.457  INFO 35595 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:19:11.457  INFO 35595 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:19:11.605  INFO 35595 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 51945 (http) with context path ''
+2018-09-21 11:19:11.608  INFO 35595 --- [main] m.j.SampleControllerTest2                : Started SampleControllerTest2 in 2.5 seconds (JVM running for 3.689)
+2018-09-21 11:19:11.609 DEBUG 35595 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:19:11.609 DEBUG 35595 --- [main] m.j.SampleListener                       : test config bean
+2018-09-21 11:19:11.620 DEBUG 35595 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-21 11:19:11.620 DEBUG 35595 --- [main] m.j.SampleListener                       : null
+2018-09-21 11:19:11.620 DEBUG 35595 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:19:11.722  INFO 35595 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-21 11:19:11.723  INFO 35595 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-21 11:19:11.738  INFO 35595 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-09-21 11:19:11.781  INFO 35595 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c214cc0: startup date [Fri Sep 21 11:19:09 KST 2018]; root of context hierarchy
+2018-09-21 11:19:22.154  INFO 35599 --- [main] m.j.SampleControllerTest2                : Starting SampleControllerTest2 on jaeyeonui-iMac.local with PID 35599 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:19:22.183 DEBUG 35599 --- [main] m.j.SampleControllerTest2                : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:19:22.184  INFO 35599 --- [main] m.j.SampleControllerTest2                : The following profiles are active: test
+2018-09-21 11:19:22.227  INFO 35599 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ceb3185: startup date [Fri Sep 21 11:19:22 KST 2018]; root of context hierarchy
+2018-09-21 11:19:23.295  INFO 35599 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2018-09-21 11:19:23.323  INFO 35599 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-21 11:19:23.323  INFO 35599 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-09-21 11:19:23.331  INFO 35599 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaeyeonkim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-09-21 11:19:23.395  INFO 35599 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-21 11:19:23.395  INFO 35599 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1170 ms
+2018-09-21 11:19:23.435  INFO 35599 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-21 11:19:23.437  INFO 35599 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-21 11:19:23.438  INFO 35599 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-21 11:19:23.438  INFO 35599 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-21 11:19:23.438  INFO 35599 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-21 11:19:23.618  INFO 35599 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:19:23.738  INFO 35599 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ceb3185: startup date [Fri Sep 21 11:19:22 KST 2018]; root of context hierarchy
+2018-09-21 11:19:23.796  INFO 35599 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:19:23.800  INFO 35599 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:19:23.800  INFO 35599 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:19:23.815  INFO 35599 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:19:23.815  INFO 35599 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:19:23.944  INFO 35599 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 51952 (http) with context path ''
+2018-09-21 11:19:23.948  INFO 35599 --- [main] m.j.SampleControllerTest2                : Started SampleControllerTest2 in 2.22 seconds (JVM running for 3.205)
+2018-09-21 11:19:23.949 DEBUG 35599 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:19:23.949 DEBUG 35599 --- [main] m.j.SampleListener                       : test config bean
+2018-09-21 11:19:23.959 DEBUG 35599 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-21 11:19:23.959 DEBUG 35599 --- [main] m.j.SampleListener                       : null
+2018-09-21 11:19:23.960 DEBUG 35599 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:19:24.046  INFO 35599 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-21 11:19:24.046  INFO 35599 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-21 11:19:24.059  INFO 35599 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-21 11:19:24.109  INFO 35599 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ceb3185: startup date [Fri Sep 21 11:19:22 KST 2018]; root of context hierarchy
+2018-09-21 11:28:00.401  INFO 35639 --- [main] m.j.SampleControllerTest3                : Starting SampleControllerTest3 on jaeyeonui-iMac.local with PID 35639 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:28:00.411 DEBUG 35639 --- [main] m.j.SampleControllerTest3                : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:28:00.411  INFO 35639 --- [main] m.j.SampleControllerTest3                : The following profiles are active: test
+2018-09-21 11:28:00.435  INFO 35639 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7daa0fbd: startup date [Fri Sep 21 11:28:00 KST 2018]; root of context hierarchy
+2018-09-21 11:28:01.943  INFO 35639 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 0 (http)
+2018-09-21 11:28:01.980  INFO 35639 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-09-21 11:28:01.981  INFO 35639 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-09-21 11:28:01.989  INFO 35639 --- [localhost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jaeyeonkim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-09-21 11:28:02.064  INFO 35639 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-09-21 11:28:02.064  INFO 35639 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1632 ms
+2018-09-21 11:28:02.106  INFO 35639 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-21 11:28:02.109  INFO 35639 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-21 11:28:02.109  INFO 35639 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-21 11:28:02.109  INFO 35639 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-21 11:28:02.109  INFO 35639 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-21 11:28:02.444  INFO 35639 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:28:02.603  INFO 35639 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7daa0fbd: startup date [Fri Sep 21 11:28:00 KST 2018]; root of context hierarchy
+2018-09-21 11:28:02.685  INFO 35639 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:28:02.689  INFO 35639 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:28:02.690  INFO 35639 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:28:02.718  INFO 35639 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:28:02.718  INFO 35639 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:28:02.955  INFO 35639 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 51994 (http) with context path ''
+2018-09-21 11:28:02.959  INFO 35639 --- [main] m.j.SampleControllerTest3                : Started SampleControllerTest3 in 2.939 seconds (JVM running for 4.292)
+2018-09-21 11:28:02.960 DEBUG 35639 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:28:02.960 DEBUG 35639 --- [main] m.j.SampleListener                       : test config bean
+2018-09-21 11:28:02.969 DEBUG 35639 --- [main] m.j.SampleListener                       : jimmy test properties
+2018-09-21 11:28:02.969 DEBUG 35639 --- [main] m.j.SampleListener                       : null
+2018-09-21 11:28:02.969 DEBUG 35639 --- [main] m.j.SampleListener                       : ==============
+2018-09-21 11:28:03.576  INFO 35639 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-21 11:28:03.577  INFO 35639 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-21 11:28:03.589  INFO 35639 --- [http-nio-auto-1-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-09-21 11:28:03.652  INFO 35639 --- [Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7daa0fbd: startup date [Fri Sep 21 11:28:00 KST 2018]; root of context hierarchy
+2018-09-21 11:49:58.819  INFO 35692 --- [main] m.j.SampleControllerJsonTest             : Starting SampleControllerJsonTest on jaeyeonui-iMac.local with PID 35692 (started by jaeyeonkim in /Users/jaeyeonkim/Desktop/project/spring-choi)
+2018-09-21 11:49:58.825 DEBUG 35692 --- [main] m.j.SampleControllerJsonTest             : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-21 11:49:58.825  INFO 35692 --- [main] m.j.SampleControllerJsonTest             : The following profiles are active: test
+2018-09-21 11:49:58.849  INFO 35692 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3b7d3a38: startup date [Fri Sep 21 11:49:58 KST 2018]; root of context hierarchy
+2018-09-21 11:49:59.962  INFO 35692 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:50:00.260  INFO 35692 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3b7d3a38: startup date [Fri Sep 21 11:49:58 KST 2018]; root of context hierarchy
+2018-09-21 11:50:00.346  INFO 35692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String me.jimmy.sample.SampleController.hello()
+2018-09-21 11:50:00.349  INFO 35692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-21 11:50:00.350  INFO 35692 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-21 11:50:00.374  INFO 35692 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:50:00.374  INFO 35692 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-21 11:50:00.469  INFO 35692 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-09-21 11:50:00.469  INFO 35692 --- [main] o.s.t.w.s.TestDispatcherServlet          : FrameworkServlet '': initialization started
+2018-09-21 11:50:00.481  INFO 35692 --- [main] o.s.t.w.s.TestDispatcherServlet          : FrameworkServlet '': initialization completed in 11 ms
+2018-09-21 11:50:00.516  INFO 35692 --- [main] m.j.SampleControllerJsonTest             : Started SampleControllerJsonTest in 2.09 seconds (JVM running for 3.543)
+2018-09-21 11:50:00.606  INFO 35692 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3b7d3a38: startup date [Fri Sep 21 11:49:58 KST 2018]; root of context hierarchy
